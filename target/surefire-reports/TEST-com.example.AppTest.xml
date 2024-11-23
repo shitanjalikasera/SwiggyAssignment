@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire/surefirebooter6583879054410806029.jar /Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire 2024-11-23T23-19-15_226-jvmRun1 surefire12259125688348713325tmp surefire_010305845119847462125tmp"/>
+    <property name="sun.java.command" value="/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire/surefirebooter67214306176020509.jar /Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire 2024-11-23T23-23-53_456-jvmRun1 surefire7530227756428264670tmp surefire_05236647724996422885tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/test-classes:/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/classes:/Users/shitanjali/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/shitanjali/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire/surefirebooter6583879054410806029.jar"/>
+    <property name="surefire.real.class.path" value="/Users/shitanjali/Documents/MavenProjects/demoswiggygame/target/surefire/surefirebooter67214306176020509.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1"/>
