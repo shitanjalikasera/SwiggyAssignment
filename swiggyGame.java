@@ -44,7 +44,7 @@ class Arena {
         System.out.println("Fight starts between " + player1.getName() + " and " + player2.getName());
 
         // Determine who starts based on lower health
-        Player currentAttacker = (player1.getHealth() < player2.getHealth()) ? player1 : player2;
+        Player currentAttacker = (player1.getHealth() <= player2.getHealth()) ? player1 : player2;
         Player currentDefender = (currentAttacker == player1) ? player2 : player1;
 
         while (player1.getHealth() > 0 && player2.getHealth() > 0) {
@@ -74,7 +74,11 @@ class Arena {
                 System.out.println(currentDefender.getName() + " has died! " + currentAttacker.getName() + " wins!");
                 break;
             }
-
+            
+             // Swap roles for the next turn
+             Player temp = currentAttacker;
+             currentAttacker = currentDefender;
+             currentDefender = temp;
         }
     }
 }
